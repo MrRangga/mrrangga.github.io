@@ -7,9 +7,10 @@
         <title>firmansmoh</title>
         <link rel="stylesheet" href="./tailwind.css">
         <link rel="stylesheet" href="css/style.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     </head>
     <body>
-    <header class="max-h-screen max-w-screen ">
+    <header class="max-h-screen max-w-screen " id="home">
         <!-- navbar -->
         <nav class="w-screen  px-4 lg:px-16 mx-auto  lg:bg-none flex justify-center lg:justify-between items-center fixed z-50  ">
             <div class="w-1/6 lg:hidden absolute left-0 pl-4 ham-ico cursor-pointer">
@@ -22,10 +23,9 @@
                 </div>
                 
                 <div class="nav flex justify-end hidden lg:block text-lg text-white font-semibold ">
-                    <a href="#section-2" class="hover-effect mr-4 py-2 px-3">Home</a>
-                    <a href="#section-2" class="hover-effect mr-4 py-2 px-3  rounded-full">About</a>
-                    <a href="#section-2" class="hover-effect mr-4 py-2 px-3  rounded-full">Portfolio</a>
-                    <a href="#section-2" class="hover-effect mr-4 py-2 px-3  rounded-full">Contact</a>
+                    <a href="#home" class="hover-effect mr-4 py-2 px-3">Home</a>
+                    <a href="#section-5" class="hover-effect mr-4 py-2 px-3  rounded-full">Portfolio</a>
+                    <a href="#section-6" class="hover-effect mr-4 py-2 px-3  rounded-full">Contact</a>
                 </div>
                 
                 <div class="mob-menu block absolute top-0 bg-red-500 w-3/4 md:w-y1/2 h-screen px-5 py-5 transition-all duration-200 left-hidden shadow-lg lg:hidden">
@@ -38,14 +38,11 @@
                             <div class="py-5">
                                 <a href="#home" class="text-white font-bold uppercase text-lg tracking-wider hover:text-red">Home</a>   
                             </div>
-                            <div class="py-5"> 
-                                <a href="#home" class="text-white font-bold uppercase text-lg tracking-wider py-12">About</a>   
+                            <div class="py-5">
+                                <a href="#section-5" class="text-white font-bold uppercase text-lg tracking-wider py-12">Portfolio</a>   
                             </div>
                             <div class="py-5">
-                                <a href="#home" class="text-white font-bold uppercase text-lg tracking-wider py-12">Portfolio</a>   
-                            </div>
-                            <div class="py-5">
-                                <a href="#home" class="text-white font-bold uppercase text-lg tracking-wider py-12">contact</a>   
+                                <a href="#section-6" class="text-white font-bold uppercase text-lg tracking-wider py-12">contact</a>   
                             </div>
                             
 
@@ -74,7 +71,7 @@
                     Passionate Web Developer
                 </p>
                 <button class="bg-red-600 text-white py-3 px-5 mt-4 hover:bg-red-700">
-                    Hire Me     
+                    <a href="https://api.whatsapp.com/send?phone=082331624114">Hire Me</a>      
                 </button>
             </div>     
         </div>
@@ -159,14 +156,15 @@
                 
             </div>
             
-            <div class="absolute bottom-0 left-0 w-1/4">
+            <div class="absolute bottom-0 left-0 w-1/3">
                 <img src="img/bg2.png" alt="bg2">
-                <span class="absolute bottom-0 left-0 text-white font-semibold mb-3 ml-5">
-                    created with 
+                <span class="absolute bottom-0 left-0 text-white font-semibold mb-3 ml-5 tex-base">
+                    created with <i class="far fa-heart"></i> by Mohammad Firmansyah
                 </span> 
             </div>
         </div>
         </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
         <script src="js/jquey.min.js"></script>
     <script>
         
